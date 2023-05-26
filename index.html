@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PIZZERIA</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <!--banner-->
+  <section id="banner">
+    <div class="bg-color">
+      <header id="header">
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">Sobre</a>
+            <a href="#event">Eventos</a>
+            <a href="#menu-list">Menu</a>
+            <a href="#contact">Preguntas</a>
+          </div>
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <h1 class="logo-name">Pizzeria</h1>
+            <h2>VAriedades de Alimentos</h2>
+            <p>¡Especializado en cocina Cubana!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / banner -->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Bienvenidos</h1>
+          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="heading">Especialidades</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
+              <div class="details-list">
+                <ul>
+                  <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                  <li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
+                  <li><i class="fa fa-check"></i>Vivamus accumsan porttitor justo sed </li>
+                  <li><i class="fa fa-check"></i>Curabitur at massa id tortor fermentum luctus</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <img src="img/res01.jpg" alt="" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+   <!--/ event -->
+  <!-- menu -->
+  
+  <section id="menu-list" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Menu</h1>
+          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+        </div>
+        <div class="col-md-12  text-center gallery-trigger">
+          <ul>
+            <li><a class="filter" data-filter="all">Mostrar todo</a></li>
+            <li><a class="filter" data-filter=".category-1">Desayuno</a></li>
+            <li><a class="filter" data-filter=".category-2">Almuerzo</a></li>
+            <li><a class="filter" data-filter=".category-3">Comida</a></li>
+          </ul>
+        </div>
+        <div id="Container">
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Plato</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$Precio</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/about-->
+  <!-- event -->
+  <section id="event">
+    <div class="bg-color" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center" style="padding:60px;">
+            <h1 class="header-h">Proximos Eventos</h1>
+            <p class="header-p">Decoraciones 100% realizadas</p>
+          </div>
+          <div class="col-md-12" style="padding-bottom:60px;">
+            <div class="item active left">
+              <div class="col-md-6 col-sm-6 left-images">
+                <img src="img/res02.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-6 col-sm-6 details-text">
+                <div class="content-holder">
+                  <h2>Noche de Gala</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eos suscipit earum voluptas aliquam recusandae, quae iure adipisci, inventore quia, quos delectus quaerat praesentium id expedita nihil illo accusantium, tempora.</p>
+                  <address>
+                              <strong>Place: </strong>
+                              Pizzeria, Calle Alameda
+                              <br>
+                              <strong>Time: </strong>
+                              09:00pm
+                            </address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!--/ menu -->
+  <!-- contact -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="header-h">Reserve Su Mesa</h1>
+          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+        </div>
+      </div>
+      <div class="row msg-row">
+        <div class="col-md-4 col-sm-4 mr-15">
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Numero de Telefono</h4>
+              <p class="light-blue regular alt-p">+53 12345678 - <span class="contacts-sp">LLamar</span></p>
+            </div>
+          </div>
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Horarios</h4>
+              <p class="light-blue regular alt-p"> Lunes a Viernes 09.00 - 16:00</p>
+              <p class="light-blue regular alt-p">
+                Sabados y Domingos 09:00 - 12.00
+              </p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <!-- / contact -->
+  <!-- footer -->
+  <footer class="footer text-center">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+          <div class="widget">
+            <h4 class="widget-title">PIZZERIA</h4>
+            <address>CES, CMG 72000</address>
+            <div class="social-list">
+              <a href="https://wa.me/5352489105"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100090664016070&sk=about"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <p class="copyright clear-float">
+              © Automa7ech Theme. All Rights Reserved
+              <div class="credits">
+                
+                Designed by <a href="#">Automa7ech</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
